@@ -13,6 +13,7 @@
 		C6243AD71B4D374600F09025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6243AD61B4D374600F09025 /* Images.xcassets */; };
 		C6243ADA1B4D374600F09025 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6243AD81B4D374600F09025 /* LaunchScreen.xib */; };
 		C6243AE61B4D374600F09025 /* ImageViewerControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6243AE51B4D374600F09025 /* ImageViewerControlTests.swift */; };
+		C6243AF11B4D386900F09025 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6243AF01B4D386900F09025 /* ImageViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C6243ADF1B4D374600F09025 /* ImageViewerControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6243AE41B4D374600F09025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6243AE51B4D374600F09025 /* ImageViewerControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerControlTests.swift; sourceTree = "<group>"; };
+		C6243AF01B4D386900F09025 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C6243ACC1B4D374600F09025 /* ImageViewerControl */ = {
 			isa = PBXGroup;
 			children = (
+				C6243AEF1B4D384600F09025 /* ImageViewer */,
 				C6243ACF1B4D374600F09025 /* AppDelegate.swift */,
 				C6243AD11B4D374600F09025 /* ViewController.swift */,
 				C6243AD31B4D374600F09025 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				C6243AE41B4D374600F09025 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6243AEF1B4D384600F09025 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C6243AF01B4D386900F09025 /* ImageViewerViewController.swift */,
+			);
+			name = ImageViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6243AF11B4D386900F09025 /* ImageViewerViewController.swift in Sources */,
 				C6243AD21B4D374600F09025 /* ViewController.swift in Sources */,
 				C6243AD01B4D374600F09025 /* AppDelegate.swift in Sources */,
 			);
